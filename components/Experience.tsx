@@ -13,7 +13,7 @@ function Experience() {
               name="tabs"
             />
             <label
-              className="text-white bg-[#4D63E9] text-2xl block p-5 rounded-r-md leading-loose cursor-pointer"
+              className="text-white bg-[#4D63E9] text-xl lg:text-2xl block p-3 lg:p-5 rounded-r-md leading-loose cursor-pointer"
               htmlFor="tab-multi-one"
             >
               <img src="aikologo.png" className="inline aiko-logo" alt="" />{" "}
@@ -50,7 +50,7 @@ function Experience() {
               name="tabs"
             />
             <label
-              className="text-white bg-[#4D63E9] text-2xl block p-5 leading-normal cursor-pointer"
+              className="text-white bg-[#4D63E9] text-xl lg:text-2xl block p-3 lg:p-5 leading-normal cursor-pointer"
               htmlFor="tab-multi-two"
             >
               <img
@@ -83,14 +83,10 @@ function Experience() {
               name="tabs"
             />
             <label
-              className="text-white bg-[#4D63E9] text-2xl block p-5 leading-normal cursor-pointer"
+              className="text-white bg-[#4D63E9] text-xl lg:text-2xl block p-3 lg:p-5 leading-normal cursor-pointer"
               htmlFor="tab-multi-three"
             >
-              <img
-                src="p2plogo.png"
-                className="shvrkboy-logo inline aiko-logo"
-                alt=""
-              />{" "}
+              <img src="p2plogo.png" className="shvrkboy-logo inline" alt="" />{" "}
               Passion2Progress
             </label>
             <div className="tab-content overflow-hidden  text-white  bg-[#4D63E9]  leading-normal">

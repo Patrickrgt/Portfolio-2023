@@ -8,8 +8,8 @@ function aiko() {
     <main>
       <Nav aiko="true"></Nav>
       <main className="text-white w-11/12 mt-24 rounded-md relative mx-auto">
-        <div className="flex">
-          <section className="w-2/4 relative">
+        <div className="flex lg:flex-row flex-col">
+          <section className="lg:w-2/4 relative">
             <h1 className="text-5xl mb-1">AIKO VIRTUAL</h1>
             <div className="w-11/12">
               <p className="text-xl">
@@ -31,12 +31,12 @@ function aiko() {
             </article>
           </section>
 
-          <section className="mx-auto animate-fade-in-up">
+          <section className="mt-6 mx-auto animate-fade-in-up">
             <img className="mx-auto max-h-fit" src={"/aiko.png"} alt="" />
           </section>
         </div>
 
-        <div className="flex justify-center items-center mx-auto bg-[#4D63E9] w-fit m-12 rounded-md">
+        <div className="lg:flex pt-1 pb-1 justify-center items-center mx-auto bg-[#4D63E9] lg:w-fit m-12 rounded-md">
           <article className="m-6">
             <h2 className="text-xl lato uppercase font-bold tracking-wider">
               Role

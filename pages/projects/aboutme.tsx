@@ -16,9 +16,9 @@ function aboutme() {
   //
   return (
     <main>
-      <Nav aiko="true"></Nav>
+      <Nav></Nav>
       <main className="text-white w-8/12 mt-24 rounded-md relative mx-auto">
-        <div className="flex">
+        <div className="lg:flex">
           <section className="mx-auto animate-fade-in-up bg-[#4D63E9] p-4 bg-opacity-90 rounded flex h-3/6">
             <img
               className="mx-auto self-center rounded transition-all"
@@ -26,13 +26,13 @@ function aboutme() {
               alt=""
             />
           </section>
-          <section className="w-3/4 pl-5 relative">
-            <h1 className="text-3xl">
+          <section className="lg:w-3/4 lg:pl-5">
+            <h1 className="mt-6 text-center text-2xl lg:text-3xl">
               <span className="link link-underline link-underline-black">
                 Hi, I'm Pat an aspiring Full-Stack Developer based in NYC.
               </span>
             </h1>
-            <hr className="mt-5" />
+            <hr className="mt-6" />
             <p className="text-xl pt-5">
               graduated from New York Institute of Technology, receiving a B.S
               in Computer Science with a concentration in Big Data Management
@@ -65,15 +65,16 @@ function aboutme() {
               <li>Music Production 🎵</li>
               <li>Anime Conventions 🌸</li>
               <li>
-                Commissioning Art
-                <span onMouseEnter={handleMouseEnter("/aboutme2full.png")}>
-                  🗣
-                </span>
+                Commissioning Art{" "}
+                <span onClick={handleMouseEnter("/aboutme2full.png")}>📓</span>
               </li>
               {commission ? (
-                <li>
-                  Commission by <a href="https://twitter.com/Darr1o">Darrio</a>
-                </li>
+                <p>
+                  Nice job finding the Easter Egg!
+                  <br />
+                  This commission is by{" "}
+                  <a href="https://twitter.com/Darr1o">Darrio</a>
+                </p>
               ) : (
                 ""
               )}

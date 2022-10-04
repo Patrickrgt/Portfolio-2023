@@ -9,8 +9,8 @@ function salvex() {
     <main>
       <Nav salvex="true"></Nav>
       <main className="text-white w-11/12 mt-24 rounded-md relative mx-auto">
-        <div className="flex">
-          <section className="w-2/4">
+        <div className="flex lg:flex-row flex-col">
+          <section className="lg:w-2/4">
             <h1 className="text-5xl mb-1">SALVEX</h1>
 
             <p className="text-xl">
@@ -41,7 +41,7 @@ function salvex() {
           </section>
         </div>
 
-        <div className="flex justify-center items-center mx-auto bg-[#4D63E9] w-fit m-12 rounded-md">
+        <div className="lg:flex pt-1 pb-1 justify-center items-center mx-auto bg-[#4D63E9] lg:w-fit m-12 rounded-md">
           <article className="m-6">
             <h2 className="text-xl lato uppercase font-bold tracking-wider">
               Role
@@ -72,7 +72,7 @@ function salvex() {
 
         <section>
           <h2 className="text-3xl">Problem</h2>
-          <p className="text-xl w-4/12">
+          <p className="text-xl lg:w-4/12">
             Inability to find timely and adequate healthcare because of
             inconsistent self-diagnosis tools and feedback without a clear track
             to find healthcare providers who can assist.

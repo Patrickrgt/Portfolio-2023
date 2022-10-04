@@ -1,4 +1,5 @@
 import type { NextPage } from "next";
+import { useEffect } from "react";
 import Head from "next/head";
 import Image from "next/image";
 import Nav from "../components/Nav";
@@ -15,7 +16,9 @@ const Home: NextPage = (props: any) => {
       <Nav></Nav>
       <div className="flex min-h-screen flex-col items-center justify-center py-3 mt-32">
         <Header></Header>
-
+        <div className="lg:w-3/4 mx-auto">
+          <Experience />
+        </div>
         <Tab
           project={"SALVEX"}
           projectImg={"salvex.png"}

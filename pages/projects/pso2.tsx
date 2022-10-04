@@ -9,8 +9,8 @@ function pso2() {
     <main>
       <Nav pso2="true"></Nav>
       <main className="text-white w-11/12 mt-24 rounded-md relative mx-auto">
-        <div className="flex">
-          <section className="w-3/4">
+        <div className="flex lg:flex-row flex-col">
+          <section className="lg:w-3/4">
             <h1 className="text-5xl mb-1">PSO2 SCRATCH TICKET DATABASE</h1>
             <div className="w-5/6">
               <p className="text-xl">
@@ -34,7 +34,7 @@ function pso2() {
           </section>
         </div>
 
-        <div className="flex justify-center items-center mx-auto bg-[#4D63E9] w-fit m-12 rounded-md">
+        <div className="lg:flex pt-1 pb-1 justify-center items-center mx-auto bg-[#4D63E9] lg:w-fit m-12 rounded-md">
           <article className="m-6">
             <h2 className="text-xl lato uppercase font-bold tracking-wider">
               Role
@@ -97,7 +97,7 @@ function pso2() {
         </section>
 
         <section>
-          <h2 className="text-3xl">Solution</h2>
+          <h2 className="mt-6 text-3xl">Solution</h2>
           <p className="text-xl">
             Phantasy Star Online 2 needs an application that stores items within
             a database and lets a player filter items based on keyword or group

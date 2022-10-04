@@ -14,13 +14,13 @@ function Header() {
   const word = useTypedWord(words);
   return (
     <main className="w-4/5 justify-center items-center">
-      <div className="flex flex-row justify-center items-center">
+      <div className="flex flex-col lg:flex-row justify-center items-center">
         <img
-          className="ml-16 object-contain h-96 rounded-md animate-fade-in-down"
+          className="lg:ml-16 object-contain h-96 rounded-md animate-fade-in-down"
           src="phos.png"
           alt=""
         />
-        <div className="w-3/6 ml-16">
+        <div className="text-center lg:w-3/6 lg:ml-16">
           <h1 className="text-5xl	text-white">
             Patrick Torres
             <br />
@@ -28,7 +28,7 @@ function Header() {
             <br />
           </h1>
 
-          <p className="text-2xl	text-white">
+          <p className="text-2xl text-white">
             I enjoy art, web3, collect NFTs, admire fashion design and
             occasionally attend anime conventions.
           </p>
@@ -44,9 +44,6 @@ function Header() {
             </span>
           </article>
         </div>
-      </div>
-      <div className="w-4/5 mx-auto">
-        <Experience />
       </div>
     </main>
   );

@@ -11,9 +11,9 @@ function classNames(...classes: string[]) {
 
 function Nav({ salvex, wellness, pso2, shvrkboy, psyche, aiko }: any) {
   return (
-    <nav className="z-10	fixed top-0 w-screen  bg-[#4D63E9] p-3 rounded-b-md">
-      <ul className="flex text-2xl">
-        <li className="ml-12 mr-24">
+    <nav className="z-10	fixed top-0 w-screen bg-[#697EFF] lg:bg-[#4D63E9] p-3 rounded-b-md">
+      <ul className="flex text-xl lg:text-2xl">
+        <li className="mr-4 lg:ml-12 lg:mr-24">
           <Link href={`/`}>
             <a
               className="text-white hover:text-blue-800  transition-all link link-underline link-underline-black"
@@ -23,7 +23,7 @@ function Nav({ salvex, wellness, pso2, shvrkboy, psyche, aiko }: any) {
             </a>
           </Link>
         </li>
-        <li className="mr-24">
+        <li className="mr-4 lg:mr-24">
           <Link href={`/projects/aboutme`}>
             <a
               className="text-white hover:text-blue-800  transition-all link link-underline link-underline-black"
@@ -33,7 +33,7 @@ function Nav({ salvex, wellness, pso2, shvrkboy, psyche, aiko }: any) {
             </a>
           </Link>
         </li>
-        <li className="mr-24">
+        <li className="mr-4 lg:mr-24">
           <a className="text-white hover:text-blue-800">
             <Menu as="div" className="relative inline-block text-left">
               <div>

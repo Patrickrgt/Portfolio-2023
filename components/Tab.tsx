@@ -17,9 +17,9 @@ function Tab({ project, projectImg, first, tools }: any) {
       <div>
         <InView onChange={setInView}>
           <Link href={`/projects/${project.toLowerCase().split(" ")[0]}`}>
-            <article className="flex h-90-screen cursor-pointer">
+            <article className="flex lg:h-90-screen cursor-pointer">
               <img
-                className="mx-auto my-auto h-5/6"
+                className="mx-auto my-auto h-5/6 object-cover object-center"
                 src={
                   projectImg
                     ? projectImg
@@ -31,7 +31,7 @@ function Tab({ project, projectImg, first, tools }: any) {
           </Link>
         </InView>
 
-        <section className="absolute bottom-12 left-12">
+        <section className="p-6 lg:absolute lg:bottom-12 lg:left-12 bg-[#4D63E9] rounded-md">
           <h1 className=" text-white text-5xl">
             {project ? project : "Insert Title"}
           </h1>
