@@ -3,7 +3,7 @@ import Link from "next/link";
 import { useAnimation, motion } from "framer-motion";
 import { InView } from "react-intersection-observer";
 
-function Tab({ project, projectImg, first, tools }: string) {
+function Tab({ project, projectImg, first, tools }: any) {
   const [inView, setInView] = React.useState(false);
 
   return (
