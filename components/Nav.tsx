@@ -9,7 +9,7 @@ function classNames(...classes: string[]) {
   return classes.filter(Boolean).join(" ");
 }
 
-function Nav({ salvex, wellness, pso2, shvrkboy, psyche, aiko }: boolean) {
+function Nav({ salvex, wellness, pso2, shvrkboy, psyche, aiko }: any) {
   return (
     <nav className="z-10	fixed top-0 w-screen  bg-[#4D63E9] p-3 rounded-b-md">
       <ul className="flex text-2xl">
