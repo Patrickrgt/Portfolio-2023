@@ -14,7 +14,7 @@ function Experience() {
             />
             <label
               className="text-white bg-[#4D63E9] text-2xl block p-5 rounded-r-md leading-loose cursor-pointer"
-              for="tab-multi-one"
+              htmlFor="tab-multi-one"
             >
               <img src="aikologo.png" className="inline aiko-logo" alt="" />{" "}
               Aiko Virtual
@@ -51,7 +51,7 @@ function Experience() {
             />
             <label
               className="text-white bg-[#4D63E9] text-2xl block p-5 leading-normal cursor-pointer"
-              for="tab-multi-two"
+              htmlFor="tab-multi-two"
             >
               <img
                 src="shvrkboylogo.png"
@@ -84,7 +84,7 @@ function Experience() {
             />
             <label
               className="text-white bg-[#4D63E9] text-2xl block p-5 leading-normal cursor-pointer"
-              for="tab-multi-three"
+              htmlFor="tab-multi-three"
             >
               <img
                 src="p2plogo.png"
