@@ -1,3 +1,149 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+    .button {
+        @apply border-2 px-8 py-3 flex justify-center font-semibold md:text-left
+    }
+
+    .blinking-cursor:after {
+        content: '|';
+        @apply text-white;
+        animation: blink 1s step-start infinite;
+    }
+
+    @keyframes blink {
+        50% {
+          opacity: 0;
+        }
+      }
+}
+
+/* Scroll bar stylings */
+::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+  }
+
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: var(--lightestgrey); 
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #4D63E9; 
+    border-radius: 5px;
+
+  }
+
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #3140a1; 
+  }
+
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto Slab', serif;
+    background-color: #697EFF;
+}
+
+.lato {
+    font-family: 'Lato', sans-serif;
+}
+
+.h-90-screen {
+    height: 90vh;
+}
+
+.aiko-logo {
+    height: 50px;
+    width: 50px;
+}
+
+.shvrkboy-logo {
+    height: 50px;
+    width: 50px;
+
+}
+
+.tab-content {
+    max-height: 0;
+    -webkit-transition: max-height .35s;
+    -o-transition: max-height .35s;
+    transition: max-height .35s;
+    }
+    /* :checked - resize to full height */
+    .tab input:checked ~ .tab-content {
+    max-height: 100vh;
+    background-color: #697EFF;
+    transition: ease all 0.5s;
+    }
+    /* Label formatting when open */
+    .tab input:checked + label{
+    /*@apply text-xl p-5 border-l-2 border-indigo-500 bg-gray-100 text-indigo*/
+    padding: 1.25rem; /*.p-5*/
+    /* background-image: url("/aikobanner.png");
+    background-repeat: no-repeat;
+    background-size: cover;     */
+    transition: ease all 0.5s;
+    }
+    /* Icon */
+    .tab label::after {
+    float:right;
+    right: 0;
+    top: 0;
+    display: block;
+    width: 1.5em;
+    height: 1.5em;
+    line-height: 1.5;
+    font-size: 1.25rem;
+    text-align: center;
+    -webkit-transition: all .35s;
+    -o-transition: all .35s;
+    transition: all .35s;
+    
+    }
+    /* Icon formatting - closed */
+    .tab input[type=checkbox] + label::after {
+    content: "";
+    font-weight:bold; /*.font-bold*/
+    background-color: #697EFF;
+    margin-top: .6rem;
+    width: 10%;
+    }
+    .tab input[type=radio] + label::after {
+    content: "\25BE";
+    font-weight:bold; /*.font-bold*/
+    border-radius: 9999px; /*.rounded-full */
+    }
+    /* Icon formatting - open */
+    .tab input[type=checkbox]:checked + label::after {
+    transform: translateX(90%);
+    background-color: #6574cd; /*.bg-indigo*/
+    }
+    .tab input[type=radio]:checked + label::after {
+    transform: translateX(90%);
+    background-color: #6574cd; /*.bg-indigo*/
+    }
+    
+    .link-underline {
+		border-bottom-width: 0;
+		background-image: linear-gradient(transparent, transparent), linear-gradient(#fff, #fff);
+		background-size: 0 3px;
+		background-position: 0 100%;
+		background-repeat: no-repeat;
+		transition: background-size .5s ease-in-out;
+	}
+
+	.link-underline-black {
+		background-image: linear-gradient(transparent, transparent), linear-gradient(#fff701, #fff701)
+	}
+
+	.link-underline:hover {
+		background-size: 100% 3px;
+		background-position: 0 100%
+	}
