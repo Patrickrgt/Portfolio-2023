@@ -46,7 +46,7 @@ function Header() {
         </div>
       </div>
       <div className="w-4/5 mx-auto">
-        <Experience> </Experience>
+        <Experience />
       </div>
     </main>
   );
