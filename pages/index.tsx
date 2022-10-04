@@ -7,7 +7,7 @@ import Experience from "../components/Experience";
 import Tab from "../components/Tab";
 import Footer from "../components/Footer";
 
-const Home: NextPage = (props) => {
+const Home: NextPage = (props: any) => {
   const { project, projectImg } = props;
 
   return (
