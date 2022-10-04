@@ -7,7 +7,7 @@ function aboutme() {
   const [image, setImage] = useState("/aboutmefull.jpg");
   const [commission, setCommission] = useState(false);
 
-  function handleMouseEnter(imagePath) {
+  function handleMouseEnter(imagePath: any) {
     return () => {
       setImage(imagePath);
       setCommission(true);
