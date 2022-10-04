@@ -5,7 +5,7 @@ import Experience from "../components/Experience";
 
 const words = [
   "Full Stack Developer.",
-  "Graphic Designer",
+  "Graphic Designer.",
   "Building Products.",
   "Leading Teams.",
 ];
@@ -20,15 +20,15 @@ function Header() {
           src="phos.png"
           alt=""
         />
-        <div className="text-center lg:w-3/6 lg:ml-16">
-          <h1 className="text-5xl	text-white">
+        <div className="text-center lg:text-left lg:w-3/6 lg:ml-16">
+          <h1 className="text-3xl h-24 lg:text-5xl	text-white">
             Patrick Torres
             <br />
             <span className="blinking-cursor"> {word}</span>
             <br />
           </h1>
 
-          <p className="text-2xl text-white">
+          <p className="mt-3 text-2xl text-white">
             I enjoy art, web3, collect NFTs, admire fashion design and
             occasionally attend anime conventions.
           </p>
