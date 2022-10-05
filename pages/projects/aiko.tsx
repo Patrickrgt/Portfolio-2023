@@ -57,7 +57,9 @@ function aiko() {
             <h2 className="text-xl lato uppercase font-bold tracking-wider">
               Skills
             </h2>
-            <h2 className="text-xl">React</h2>
+            <h2 className="text-xl">
+              Community Management, Teamwork, Leadership, Problem Solving
+            </h2>
           </article>
         </div>
 
