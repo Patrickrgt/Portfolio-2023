@@ -27,6 +27,13 @@ const Home: NextPage = (props: any) => {
             <Experience />
           </div>
           <Tab
+            project={"AIKO VIRTUAL"}
+            projectImg={"aiko.png"}
+            tools={
+              "React, Typescript, Styled-Components, Discord.js, useDApp, Ethers, SQLite"
+            }
+          ></Tab>
+          <Tab
             project={"SALVEX"}
             projectImg={"salvex.png"}
             tools={"react, express, puppeteer, firebase, firestore"}
@@ -50,13 +57,6 @@ const Home: NextPage = (props: any) => {
             project={"PSYCHE OF PAT"}
             projectImg={"psyche.png"}
             tools={"react"}
-          ></Tab>
-          <Tab
-            project={"AIKO VIRTUAL"}
-            projectImg={"aiko.png"}
-            tools={
-              "COMMUNITY MANAGEMENT, TEAMWORK, LEADERSHIP, PROBLEM SOLVING"
-            }
           ></Tab>
         </div>
         <Footer></Footer>

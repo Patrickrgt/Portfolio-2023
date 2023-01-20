@@ -57,6 +57,28 @@ function Nav({ salvex, wellness, pso2, shvrkboy, psyche, aiko }: any) {
               >
                 <Menu.Items className="absolute right-0 z-10 mt-2 w-56 origin-top-right rounded-md bg-[#4D63E9] shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none">
                   <div className="py-1">
+                    {aiko ? (
+                      ""
+                    ) : (
+                      <Link href={`/projects/aiko`}>
+                        <Menu.Item>
+                          {({ active }) => (
+                            <button
+                              type="submit"
+                              className={classNames(
+                                active
+                                  ? "bg-gray-100 text-[#4D63E9]"
+                                  : "text-white",
+                                "block w-full px-4 py-2 text-left text-sm"
+                              )}
+                            >
+                              AIKO VIRTUAL
+                            </button>
+                          )}
+                        </Menu.Item>
+                      </Link>
+                    )}
+
                     {salvex ? (
                       ""
                     ) : (
@@ -159,28 +181,6 @@ function Nav({ salvex, wellness, pso2, shvrkboy, psyche, aiko }: any) {
                               )}
                             >
                               PSYCHE OF PAT
-                            </button>
-                          )}
-                        </Menu.Item>
-                      </Link>
-                    )}
-
-                    {aiko ? (
-                      ""
-                    ) : (
-                      <Link href={`/projects/aiko`}>
-                        <Menu.Item>
-                          {({ active }) => (
-                            <button
-                              type="submit"
-                              className={classNames(
-                                active
-                                  ? "bg-gray-100 text-[#4D63E9]"
-                                  : "text-white",
-                                "block w-full px-4 py-2 text-left text-sm"
-                              )}
-                            >
-                              AIKO VIRTUAL
                             </button>
                           )}
                         </Menu.Item>

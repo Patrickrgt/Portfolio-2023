@@ -21,6 +21,24 @@ function Experience() {
             </label>
             <div className="tab-content bg-[#4D63E9] overflow-hidden  text-white  leading-normal">
               <p className="text-xl p-5 uppercase tracking-wider font-bold lato">
+                Software Developer
+                <br />
+                <span>Remote</span>
+                <br />
+                <span>Aug 2022 - Present</span>
+              </p>
+              <p className="text-xl p-5">
+                Software Engineer on the Aiko Virtual Core Team. Implemented an
+                interactive Discord bot that was used to incentivize user
+                participation and engagement through the use of rewards.
+                Developed a web app using React, Styled-Components, and useDApp
+                frameworks that allowed users to view and redeem NFT stamps for
+                prizes in a rewards program. Created a set of personality
+                quizzes using JavaScript, which were used to match users with
+                shared interests and facilitate connection-building within the
+                community.
+              </p>
+              <p className="text-xl p-5 uppercase tracking-wider font-bold lato">
                 Community Manager
                 <br />
                 <span>Remote</span>
@@ -28,17 +46,14 @@ function Experience() {
                 <span>Feb 2022 - Present</span>
               </p>
               <p className="text-xl p-5">
-                Community Manager on the Aiko Virtual Core Team. We grew the
-                Aiko community by more than 900% after engaging users through
-                Discord and Twitter Spaces. We collaborate with artists and
-                developers across the web3 space to organize and participate in
-                community building and brand awareness boosting events, with
-                audiences upwards of 200+. I have Conducted member feedback
-                regularly to improve NFT collection prior to launch. I also
-                manage a moderation team comprised of 10+ team members to
-                develop and nurture the relationship between Aiko and its
-                community. Have been promoted 3 times due to strong performance
-                and community impact.
+                Community Manager on the Aiko Virtual Core Team. Grew the
+                community by over 900% through the use of Discord and Twitter
+                Spaces. Collaborated with artists and developers to execute
+                successful community-building and brand awareness-boosting
+                events, with over 200 participants. Managed a team of over 10
+                moderators to build and maintain a positive relationship between
+                Aiko and its community. Promoted to core team member due to
+                exceptional performance and positive impact on the community.
               </p>
             </div>
           </div>
@@ -70,8 +85,8 @@ function Experience() {
               </p>
 
               <p className="text-xl p-5">
-                Managed an LLC that generated a six-figure revenue from buying
-                and selling merchandise.
+                Maintaining an LLC and operating a six-figure revenue business
+                of buying and selling merchandise.
               </p>
             </div>
           </div>
