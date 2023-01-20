@@ -79,19 +79,14 @@ function aiko() {
             the development of decentralized applications utilizing web3
             technology. I also developed bots for the Community platform
             Discord, aimed at delivering immersive and engaging user experiences
-            across the web and social media platforms. \n \n Implemented an
+            across the web and social media platforms. Implemented an
             interactive Discord bot that was used to incentivize user
-            participation and engagement through the use of rewards. \n \n
-            Developed a web app using React, Styled-Components, and useDApp
-            frameworks that allowed users to view and redeem NFT stamps for
-            prizes in a rewards program. \n \n Created a set of personality
-            quizzes using JavaScript, which were used to match users with shared
-            interests and facilitate connection-building within the community.
-            for more details.
-            <br />
-            <br />
-            Join us on our journey into the virtual unknown. Simply accept
-            "A:"and become virtual.
+            participation and engagement through the use of rewards. Developed a
+            web app using React, Styled-Components, and useDApp frameworks that
+            allowed users to view and redeem NFT stamps for prizes in a rewards
+            program. Created a set of personality quizzes using JavaScript,
+            which were used to match users with shared interests and facilitate
+            connection-building within the community.
           </p>
         </section>
       </main>
