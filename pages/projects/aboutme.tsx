@@ -34,25 +34,31 @@ function aboutme() {
             </h1>
             <hr className="mt-6" />
             <p className="text-xl pt-5">
-              graduated from New York Institute of Technology, receiving a B.S
-              in Computer Science with a concentration in Big Data Management
-              and Analytics.
+              I am a current graduate student at New York Institute of
+              Technology, pursuing a Master's in Computer Science.
               <br />
               <br />
-              I'm passionate about building products with diverse teams and
-              communities. Helping create a vision, collaborating with artists,
-              developers and leaders to execute on projects.
+              I am driven by a passion for building innovative products with
+              diverse teams and communities. My experience collaborating with
+              artists, developers, and leaders to bring a vision to life has
+              prepared me for the dynamic and ever-evolving tech industry.
               <br />
               <br />
-              More recently I've worked with renowned artists Vinne and Kyo to
-              create a collection of NFTs known as Aiko Virtual. Previously I
-              was running an LLC selling limited sneakers and apparel. However,
-              I'm always picking up new technologies and creating projects. I've
-              learned during quarantine how important it is to stay connected
-              and my position as a Community Manager at Aiko Virtual taught me
-              to break out of my comfort zone and link with other creatives on
-              the NFT space to build communities, connections and projects
-              together.
+              Recently, I had the opportunity to work alongside renowned artists
+              Vinne and Kyo to create a collection of NFTs known as Aiko
+              Virtual. This project not only taught me the importance of staying
+              connected during quarantine, but also helped me to break out of my
+              comfort zone and connect with other creatives in the NFT space to
+              build communities, connections, and projects together.
+              <br />
+              <br />
+              As a Community Manager at Aiko Virtual, I gained valuable
+              experience taking on multiple roles, and now as a Software
+              Engineer on the team, I am continually learning and being mentored
+              by veterans in the crypto and coding space. My skills in frontend,
+              backend, and database technologies, combined with my
+              specialization in full-stack development, make me a versatile and
+              valuable asset to any team.
               <br />
               <br />
               I've worked with a variety of frontend, backend and database
