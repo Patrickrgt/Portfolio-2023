@@ -17,7 +17,7 @@ function Header() {
       <div className="flex flex-col lg:flex-row justify-center items-center">
         <img
           className="lg:ml-16 object-contain h-96 rounded-md animate-fade-in-down"
-          src="pfp1.jpg"
+          src="phos.png"
           alt=""
         />
         <div className="text-center lg:text-left lg:w-3/6 lg:ml-16">
